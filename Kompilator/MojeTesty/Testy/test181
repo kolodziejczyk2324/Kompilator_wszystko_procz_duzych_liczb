@@ -1,0 +1,21 @@
+VAR
+	n
+BEGIN
+	n := 5;
+	FOR i FROM 10 DOWNTO 1 DO
+		n := n + 1;
+		FOR j FROM n DOWNTO 5 DO
+			WRITE j;
+			FOR i FROM 99 DOWNO 1 DO
+				WRITE 5;
+			END
+		ENDFOR 
+		FOR j FROM 10 DOWNTO n DO
+			WRITE j;
+		ENDFOR
+	ENDFOR
+END
+
+OUTPUT
+Blad. Iterator "i" uzyty dwukrotnie w linii 9
+ENDOUTPUT

@@ -1,0 +1,17 @@
+VAR
+	j n k
+BEGIN
+	j := 1;
+	n := 5;
+	k := 2;
+	FOR i FROM j TO n DO
+		WRITE i;
+		FOR k FROM j TO n DO
+			SKIP;
+		ENDFOR
+	ENDFOR
+END
+
+OUTPUT
+Blad. Wartośc zmiennej "k" uzyta jako iterator w linii 9
+ENDOUTPUT

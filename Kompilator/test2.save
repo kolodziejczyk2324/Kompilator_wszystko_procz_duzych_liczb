@@ -1,0 +1,21 @@
+VAR
+BEGIN
+	for(int i=1 ; i<=2 ; i++){
+                cout << i << endl;
+                for(int j=3 ; j<=5 ; j++){
+                        cout << j << endl;
+                        for(int k=12 ; k<=14 ; k++){
+                                cout << k << endl;
+                        }
+                }
+                for(int j=6 ; j<=8 ; j++){
+                        cout << j << endl;
+                }
+                for(int k=15 ; k <= 17 ; k++){
+                        cout << k << endl;
+                }
+        }
+        for(int i=9 ; i<=11 ; i++){
+                cout << i << endl;
+        }
+END

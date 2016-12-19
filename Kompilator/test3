@@ -1,0 +1,16 @@
+VAR
+	n k
+BEGIN
+	n := 5;
+	k := 0;
+	FOR i FROM 1 TO 10 DO
+		k := i * n;
+		WRITE k;
+		FOR j FROM 8 TO 10 DO
+			WRITE j;
+			FOR o FROM 111 TO 113 DO
+				WRITE o;
+			ENDFOR
+		ENDFOR
+	ENDFOR
+END

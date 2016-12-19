@@ -1,0 +1,18 @@
+VAR
+	j n k
+BEGIN
+	j := 1;
+	n := 5;
+	k := 2;
+	FOR i FROM j TO n DO
+		WRITE i;
+		FOR o FROM j TO n DO
+			WRITE i;
+			i := o + 2;
+		ENDFOR
+	ENDFOR
+END
+
+OUTPUT
+Blad. Modyfikacja iteratora wewnatrz petli FOR w linii 11
+ENDOUTPUT

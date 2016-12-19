@@ -1,0 +1,17 @@
+VAR
+	j n k
+BEGIN
+	j := 1;
+	n := 5;
+	k := 2;
+	FOR i FROM j TO n DO
+		WRITE i;
+		FOR i FROM j TO n DO
+			WRITE i;
+		ENDFOR
+	ENDFOR
+END
+
+OUTPUT
+Blad. Iterator "i" uzyty dwukrotnie w linii 9
+ENDOUTPUT

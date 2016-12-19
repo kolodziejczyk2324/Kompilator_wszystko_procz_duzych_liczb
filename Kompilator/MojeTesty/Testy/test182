@@ -1,0 +1,90 @@
+VAR
+	n
+BEGIN
+	n := 5;
+	FOR i FROM 2 DOWNTO 1 DO
+		WRITE i;
+		FOR j FROM n DOWNTO 5 DO
+			WRITE j;
+			FOR k FROM 3 DOWNTO 2 DO
+				WRITE k;
+				FOR l FROM 4 DOWNTO 3 DO
+					WRITE l;
+					FOR m FROM 5 DOWNTO 4 DO
+						WRITE m;
+						FOR u FROM 6 DOWNTO 5 DO
+							WRITE u;
+						ENDFOR
+					ENDFOR
+				ENDFOR
+			ENDFOR
+		ENDFOR 
+	ENDFOR
+END
+
+OUTPUT
+2
+5
+3
+4
+5
+6
+5
+4
+6
+5
+3
+5
+6
+5
+4
+6
+5
+2
+4
+5
+6
+5
+4
+6
+5
+3
+5
+6
+5
+4
+6
+5
+1
+5
+3
+4
+5
+6
+5
+4
+6
+5
+3
+5
+6
+5
+4
+6
+5
+2
+4
+5
+6
+5
+4
+6
+5
+3
+5
+6
+5
+4
+6
+5
+ENDOUTPUT
